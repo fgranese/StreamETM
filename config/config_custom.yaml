@@ -1,0 +1,32 @@
+language: "english"
+setting: "custom"
+vocab: "glove"
+embeddings: "glove"
+
+model_params:
+  num_topics: 3
+  hidden_size: 800
+  embed_size: 300
+  enc_drop: 0.
+  max_vocab_size: 15000
+  train_embeddings: False
+
+trainer_params:
+  num_top_words: 10
+  epochs: 3000
+  learning_rate: 0.01
+  batch_size: 1000
+  weight_decay: 0.006
+  log_interval: 200
+  device: "cuda"
+  use_lr_scheduler: False
+  lr_step_size: 2000
+  verbose: True
+
+merge_params:
+  epsilon: 0.05
+  distance: 'cosine'
+
+ocpd_params:
+  threshold: 0.0002
+
