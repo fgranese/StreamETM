@@ -4,7 +4,7 @@ StreamETM is an application designed for dynamic topic modeling using the Embedd
 
 ## Features
 
-- **Dynamic Topic Modeling**: Continuously update topic models with new data chunks.
+- **Online Topic Modeling**: Continuously update topic models with new data chunks.
 - **Topic Merging**: Merge new topic models with existing ones to maintain a coherent topic structure.
 - **Change Point Detection**: Detect significant changes in topic distributions over time using Online Change Point Detection (OCPD).
 - **Preprocessing**: Preprocess text data including lemmatization, stopword removal, and frequency-based filtering.
